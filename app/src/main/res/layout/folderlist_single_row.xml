@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcorner"
+        android:src="@drawable/ic_remove_circle_red_18dp"
+        android:layout_alignBottom="@+id/direct_path"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/direct_cover"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/delete_btn"
+        android:src="@drawable/ic_action_collection"/>
+
+    <TextView
+        android:id="@+id/direct_title"
+        android:layout_width="wrap_content"
+        android:textSize="32px"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:text="Hallo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_toRightOf="@+id/direct_cover"
+        android:layout_toEndOf="@+id/direct_cover"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:maxWidth="235dp"/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_toRightOf="@+id/direct_cover"
+        android:layout_toEndOf="@+id/direct_cover"
+        android:layout_below="@+id/direct_title"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/direct_path"
+        android:layout_width="wrap_content"
+        android:textSize="24px"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textColor="@android:color/darker_gray"
+        android:layout_height="wrap_content"
+        android:text="Hallo"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/divider"
+        android:layout_toRightOf="@+id/direct_cover"
+        android:layout_toEndOf="@+id/direct_cover"
+        android:maxWidth="235dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Song"
+        android:id="@+id/direct_count"
+        android:visibility="gone"
+        android:textSize="18px"
+        android:textStyle="bold"
+        android:textColor="#FF8000"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/direct_cover"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:02"
+        android:id="@+id/direct_duration"
+        android:visibility="gone"
+        android:textSize="18px"
+        android:textStyle="bold"
+        android:textColor="#FF8000"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/direct_cover"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

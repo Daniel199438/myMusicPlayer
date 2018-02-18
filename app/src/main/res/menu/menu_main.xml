@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ds.mymusicplayer.MainActivity">
+    <item
+        android:id="@+id/createPL_btn"
+        android:icon="@drawable/ic_playlist_add_white_48dp"
+        android:title="createPL"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/deletePL_btn"
+        android:icon="@drawable/ic_playlist_add_delete_white_48dp"
+        android:title="editPL"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/checkPL_btn"
+        android:icon="@drawable/ic_playlist_add_check_white_48dp"
+        android:title="checkPL"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/editPL_btn"
+        android:icon="@drawable/ic_playlist_add_edit_white_48dp"
+        android:title="editPL"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addSong_btn"
+        android:icon="@drawable/ic_add_white_48dp"
+        android:title="addSong"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/finishaddSong_btn"
+        android:icon="@drawable/ic_check_white_48dp"
+        android:title="finishaddSong"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/favourite_btn"
+        android:icon="@drawable/ic_action_important"
+        android:title="Favourite"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/synch_btn"
+        android:icon="@drawable/ic_sync_white_48dp"
+        android:title="Synchronize"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_btn"
+        android:icon="@drawable/ic_search_white_48dp"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
+
+
+</menu>
